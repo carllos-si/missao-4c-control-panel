@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   typescript: {
     // Permite o deploy mesmo se houver pequenos erros de tipagem
     ignoreBuildErrors: true,
-  },
+  }
 };
 
 export default nextConfig;
