@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0d1b2a;
+  --primary: #00b4d8;
+  --text: #caf0f8;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-navy text-mist antialiased min-h-screen;
+}
+
+@layer utilities {
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
