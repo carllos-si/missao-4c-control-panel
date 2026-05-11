@@ -11,5 +11,5 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   }
 };
-
+// Forçando deploy 4C
 export default nextConfig;
